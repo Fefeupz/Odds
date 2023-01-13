@@ -1,0 +1,9 @@
+import numpy
+
+values = []
+
+x1 = numpy.median(values)
+x2 = numpy.percentile(values, 30)
+
+print("Median: {}".format(x1))
+print("Percentiles 30: {}".format(x2))
